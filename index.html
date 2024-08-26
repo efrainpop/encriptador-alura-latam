@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logologo alura.png" alt="Logologo alura">
+    </header>
+    <main>
+        <section class="izquierda">
+            <textarea id="entrada" placeholder="Ingrese el texto aqui  /  Enter text here"></textarea>
+            <div class="leyenda">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p>Solo letras minusculas y sin acentos / 
+                    Only lowercase letters and no accent
+                </p>
+           </div>
+            <div class="botones">
+                <button id="btnEncriptar">Encriptar / encrypt</button>
+                <button id="btnDesencriptar">Desencriptar / Decrypt </button>
+            </div>
+        </section>
+        <section class="derecha">
+           <div class="rectangulo">
+               <img class="muneco" src="imagenes/Muneco1x.png" alt="imagen de busqueda">
+               <div class="texto">
+                    <h2>Ningun mensaje fue encontrado / No message was found </h2>
+                    <p>Ingrese el texto que desee Encriptar / Enter the text you want to encrypt </p>
+               </div>
+               <div class="resultado oculto"></div>
+               <button id="btnCopiar" class="oculto">Copiar</button>
+           </div>
+        </section>     
+
+    </main>
+    <footer>
+        <div class="informacion">
+        <p>Realizado por Efraín Chaguendo </p>
+          <ul>
+
+            <li><a href="https://github.com/efrainpop" target="__blank"><i class="fa-brands fa-github"></i></a></li>
+
+            <li><a href="https://www.linkedin.com/in/rocainmobiliaria" target="__blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            
+            <li><a href="https://instagram.com/larocaeyr" target="__blank"><i class="fa-brands fa-instagram"></i></a></li>
+            
+          </ul>
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
